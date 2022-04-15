@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+torch
+torchvision
+pytorch-lightning
+torchmetrics
+mlxtend
+tensorboard
+python > 3.9
+torchviz
+jupyterthemes
+captum
+selectivesearch
