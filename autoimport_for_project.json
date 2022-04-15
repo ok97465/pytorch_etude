@@ -1,0 +1,149 @@
+{
+    "alias": {
+        "th": "torch",
+        "nn": "torch.nn",
+        "pl": "pytorch_lightning",
+        "hl": "hiddenlayer"
+    },
+    "module": {
+        "helper.helper": [
+            "imagesc",
+            "plot_confusion_matrix"
+        ],
+        "helper.plot_pg": [
+            "imagescpg",
+            "plotpg"
+        ],
+        "torch": [
+            "Tensor",
+            "tensor",
+            "ones",
+            "zeros",
+            "argmax",
+            "argmin",
+            "from_numpy",
+            "rand",
+            "randint",
+            "randn",
+            "normal",
+            "transpose",
+            "squeeze",
+            "chunk",
+            "arange",
+            "softmax",
+            "tanh",
+            "sigmoid",
+            "relu",
+            "where"
+        ],
+        "torch.autograd.grad_mode": [
+            "no_grad"
+        ],
+        "torch.nn": [
+            "L1Loss",
+            "MSELoss",
+            "CrossEntropyLoss",
+            "BCELoss",
+            "ModuleList",
+            "Parameter",
+            "Flatten",
+            "Identity",
+            "Linear",
+            "Bilinear",
+            "Sigmoid",
+            "Softmax",
+            "ReLU",
+            "Tanh",
+            "Dropout",
+            "Dropout2d",
+            "Dropout3d",
+            "MaxPool1d",
+            "MaxPool2d",
+            "MaxPool3d",
+            "AvgPool1d",
+            "AvgPool2d",
+            "AvgPool3d",
+            "Conv1d",
+            "Conv2d",
+            "Conv3d",
+            "ConvTranspose1d",
+            "ConvTranspose2d",
+            "ConvTranspose3d",
+            "BatchNorm1d",
+            "BatchNorm2d",
+            "BatchNorm3d",
+            "Module",
+            "Sequential"
+        ],
+        "torch.nn.functional": [
+            "cross_entropy"
+        ],
+        "torch.nn.init": [
+            "xavier_normal_"
+        ],
+        "torch.optim": [
+            "SGD",
+            "Adam"
+        ],
+        "torch.optim.optimizer": [
+            "Optimizer"
+        ],
+        "torch.linalg": [
+            "norm"
+        ],
+        "torch.multiprocessing": [
+            "freeze_support"
+        ],
+        "torch.utils.data": [
+            "DataLoader",
+            "Dataset",
+            "TensorDataset",
+            "random_split"
+        ],
+        "torchvision.io":
+        [
+            "read_image"
+        ],
+        "torchvision.ops":
+        [
+            "box_iou"
+        ],
+        "torchvision.transforms": [
+            "ToTensor",
+            "Compose",
+            "CenterCrop",
+            "RandomCrop",
+            "RandomHorizontalFlip",
+            "Resize"
+        ],
+        "pytorch_lightning": [
+            "LightningModule",
+            "LightningDataModule",
+            "Trainer"
+        ],
+        "pytorch_lightning.callbacks": [
+            "ModelCheckpoint",
+            "ModelSummary",
+            "Callback"
+        ],
+        "pytorch_lightning.loggers": [
+            "TensorBoardLogger"
+        ],
+        "pytorch_lightning.utilities.rank_zero": [
+            "rank_zero_only"
+        ],
+        "pytorch_lightning.utilities.types": [
+            "STEP_OUTPUT",
+            "EPOCH_OUTPUT"
+        ],
+        "torchmetrics.functional": [
+            "confusion_matrix"
+        ],
+        "torchmetrics.classification.accuracy": [
+            "Accuracy"
+        ],
+        "torchviz": [
+            "make_dot"
+        ]
+    }
+}

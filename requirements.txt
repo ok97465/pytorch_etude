@@ -1,0 +1,16 @@
+numpy
+scipy
+matplotlib
+torch
+torchvision
+pytorch-lightning>2.0
+torchmetrics
+mlxtend
+tensorboard
+python > 3.9
+torchviz
+jupyterthemes
+captum
+selectivesearch
+torch_tb_profiler
+torchviz
